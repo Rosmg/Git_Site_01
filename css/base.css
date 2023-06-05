@@ -66,3 +66,125 @@ margin: 0 15px;
 .nav-container li a:hover {
     color: #3381f3;
 }
+/* banner */
+#main-banner {
+    background: url('../img/imagem001.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}
+#search-form {
+    position: relative;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    text-align: center;
+}
+#search-form h1 {
+    font-size: 40px;
+}
+#search-form p {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+#search-form input, #search-form select {
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 0 10px;
+}
+#search-form input[type=submit] {
+    background-color: #3381f3;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#search-form input[type=submit]:hover {
+    background-color: #2b79eb;
+}
+
+/* seção de últimos listadso */
+#ultimos-container {
+    text-align: center;
+    padding: 100px 0;
+}
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ultimos-container h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+#ultimos-container ul {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#ultimos-container ul li {
+    list-style: none;
+    text-align: left;
+    border-bottom: solid 1px #ccc;
+    height: 80px;
+}
+#ultimos-container ul li:last-child {
+    border: none;
+}
+.clickarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* imagem */
+.imagem {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    padding-left: 1%;
+}
+.imagem img {
+    width: 100px;
+    margin-top: 2.5px;
+}
+.imagem p {
+    font-weight: 100;
+}
+.titulo-imagem {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: left;
+    position: absolute;
+}
+.titulo-imagem h3 {
+    font-weight: 300;
+}
+.titulo-imagem p {
+    font-weight: bold;
+}
+
+/* localidade */
+.local-imagem {
+    color: #6d6d6d;
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    height: 100%;
+    line-height: 80px;
+}
+.local-imagem p {
+    display: inline-block;
+}
