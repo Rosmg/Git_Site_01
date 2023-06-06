@@ -112,7 +112,7 @@ margin: 0 15px;
 }
 
 /* seção de últimos listadso */
-#ultimos-container {
+#listagem-container {
     text-align: center;
     padding: 100px 0;
 }
@@ -122,22 +122,23 @@ margin: 0 15px;
     margin-left: auto;
     margin-right: auto;
 }
-#ultimos-container h1 {
+#listagem-container h1 {
     font-size: 36px;
     margin-bottom: 50px;
 }
-#ultimos-container ul {
+#listagem-container ul {
     padding: 0;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
-#ultimos-container ul li {
+#listagem-container ul li {
     list-style: none;
     text-align: left;
     border-bottom: solid 1px #ccc;
     height: 80px;
+    position: relative;
 }
-#ultimos-container ul li:last-child {
+#listagem-container ul li:last-child {
     border: none;
 }
 .clickarea {
@@ -149,42 +150,165 @@ margin: 0 15px;
 }
 
 /* imagem */
-.imagem {
+.imagem-box {
     display: inline-block;
     width: 50%;
     position: relative;
     padding-left: 1%;
 }
-.imagem img {
+.imagem-box img {
     width: 100px;
     margin-top: 2.5px;
 }
-.imagem p {
-    font-weight: 100;
-}
-.titulo-imagem {
+.imagem-info {
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 5px;
+    margin-left: 15px;
+    margin-top: 10px;
     text-align: left;
     position: absolute;
 }
-.titulo-imagem h3 {
+.imagem-info h3 {
     font-weight: 300;
+    margin-bottom: 10px;
 }
-.titulo-imagem p {
+.imagem-info p {
     font-weight: bold;
 }
-
-/* localidade */
-.local-imagem {
-    color: #6d6d6d;
+/* titulo */
+.titulo {
     display: inline-block;
-    width: 25%;
+    margin-left: 25px;
+    margin-top: 10px;
+    text-align: left;
     position: absolute;
-    height: 100%;
-    line-height: 80px;
 }
-.local-imagem p {
+.titulo h3, .titulo p {
+   /* display: inline-block;*/
+}
+.titulo h3 {
+    margin-bottom: 10px;
+}
+
+/* detalhes */
+.detalhes {
+    /* color: #6d6d6d; */
     display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+    position: absolute;
+    right: 1%;
+    font-weight: bold;
+    font-size: 12px;
+}
+.detalhes p {
+    margin-bottom: 10px;
+}
+.btnjobs-container {
+    margin-top: 50px;
+}
+.btn-jobs {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #3381f3;
+    border: 2px solid #3381f3;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn-jobs:hover {
+    background-color: #3381f3;
+    color: #fff;
+}
+
+/* banner espaço */
+#banner-container {
+    background: url('../img/imagem003.jpg') no-repeat;
+    background-size: cover;
+    background-position: 0 52%;
+    padding: 15em 0;
+}
+/* espaço dos status */
+#status-container {
+    text-align: center;
+    padding: 5em 0;
+}
+.titulo-center {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.p-center {
+    width: 80%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.status-box {
+    display: inline-block;
+    text-align: center;
+    width: 19.5%;
+    margin-top: 80px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height: 100px;
+}
+.status-box:nth-child(2) {
+    border-left: none;
+}
+.status-box:nth-child(3) {
+    border: none;
+}
+.status-box:nth-child(4) {
+    border-right: none;
+}
+.itens {
+    font-size: 36px;
+}
+.texto {
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #777;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #3381f3;
+}
+footer h2, footer p, footer a, footer span {
+    color: #d1d1d1;
+}
+footer h2 {
+    font-weight: 400;
+}
+footer a {
+    text-decoration: none;
+}
+footer ul {
+    padding: 0;
+}
+footer li {
+    list-style: none;
+}
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.logo-pe {
+    width: 80%;
+}
+.logo-pe h2 {
+    margin-top: 20px;
+}
+.logo-pe h2, .logo-pe p {
+    margin-bottom: 20px;
 }
