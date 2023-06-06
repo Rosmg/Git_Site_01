@@ -230,7 +230,7 @@ margin: 0 15px;
     padding: 15em 0;
 }*/
 #banner-container {
-    animation: anima 85s infinite;
+    animation: anima 240s infinite;
     display: flex;
     align-items: center;
     text-align: center;
