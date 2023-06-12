@@ -24,7 +24,7 @@ header {
     height: auto;
     width: 100%;
 }
-/* ----------navbar---------- */
+/* ----------navbar---------- 01*/
 nav {
     position:fixed;
     top: 0;
@@ -432,7 +432,20 @@ footer .wrapper:after {
     height: 30px;
     margin-left: 10px;
 }
+.footer-bottom {
+	border-top: 1px solid #B2B2B2;
+}
 
+.boxf {
+    display: inline-block;
+    position: relative;
+}
+#logof {
+    width: relative;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 /* ----------responsive---------- */
 
@@ -486,6 +499,26 @@ footer .wrapper:after {
 }
 
 @media screen and (max-width: 768px) {
+    .imagem-box {
+        width: 46%;
+        padding-left: 1em;
+    }
+    .imagem-box .imagem-info h3 {
+        font-size: 1em;
+    }
+    .imagem-box .imagem-info p, .titulo h3, .titulo p, .detalhes p {
+        font-size: 0.8em;
+    }
+    .status-box {
+        width: 49.4%;
+        border: none;
+    }
+    .status-box:nth-child(1), .status-box:nth-child(3) {
+        border-right: 1px solid #ddd;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .imagem-box {
         width: 46%;
         padding-left: 1em;
