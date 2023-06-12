@@ -54,14 +54,16 @@ nav::after {
 }
 .nav-container ul {
     float: right;
-    height: 100px;
+    height: 90px;
     line-height: 100px;
     margin: 0;
 }
 .nav-container ul li {
 list-style: none;
 float: left;
-margin: 0 15px;
+margin-right: 1em;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
 }
 .nav-container li a {
      text-decoration: none;
@@ -536,4 +538,19 @@ footer .wrapper:after {
     .status-box:nth-child(1), .status-box:nth-child(3) {
         border-right: 1px solid #ddd;
     }
+    html, body {
+        overflow-x: hidden; /* sem scoll na horizontal */
+    }
+    #logo {
+        left: 2em;
+        height: 2em;
+        width: 2em;
+        margin-top: 1em;
+        position: absolute;
+        right: 1.5em;
+        top: 0.75em;
+    }
+    .nav-container ul li {
+        font-size: 12px;
+        }
 }
