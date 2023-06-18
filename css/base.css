@@ -451,6 +451,28 @@ footer .wrapper:after {
 
 /* ----------responsive---------- */
 
+
+@media screen and (max-width: 1074px) {
+    #search-form {
+        width: 70%;
+    }
+    #search-form h1 {
+        font-size: 35px;
+    }
+    #search-form p {
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    #search-form form input, #search-form form select {
+        border-radius: 5px;
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     #logo {
          position: absolute;
@@ -472,9 +494,11 @@ footer .wrapper:after {
     .nav-container ul {
         padding-right: 8px;
     }
-
+    #main-banner {
+        margin-top: 60px;
+    }
     #search-form {
-        padding-top: 25em;
+        padding-top: 10em;
         padding-bottom: 5em;
     }
     #search-form form {
